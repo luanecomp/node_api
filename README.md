@@ -5,9 +5,9 @@ Projeto de uma API simples em NodeJS utilizando framework Express
 
 npm install
 
-node_modules/.bin/sequelize db:migrate
+node_modules/.bin/sequelize db:migrate (ou npx sequelize db:migrate)
 
-node_modules/.bin/sequelize db:seed:all
+node_modules/.bin/sequelize db:seed:all (ou npx sequelize db:seed:all)
 
 npm start
 
